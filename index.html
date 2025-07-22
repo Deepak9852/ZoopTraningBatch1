@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body{
+        margin-bottom: 200px;
+    }
+   </style>
+</head>
+<body>
+    
+
+    <!-- <h1>hello world!</h1>
+    <h1>hello everyone</h1> -->
+
+<!-- 
+     <script>
+        document.write("Hiii Students")
+        console.log("Hello") 
+    </script> -->
+
+   <div>
+    <div>
+        <div class="text">
+            <h2 class="heading2" onmouseover="change()">this is class element new</h2>
+
+            <h2 class="heading2" onmouseover="remove()">this is class element</h2>
+            <h1 id="heading" >This is heading tag</h1>
+            <img id="image">
+        </div>
+    </div>
+   </div>
+
+   <!-- id , class, tag  , attribute-->
+
+   <!-- select element in the Dom
+     1. getElementById
+     2. getElementsByClassName
+     3. getElementsByTagName
+     4. querySelector
+     5. querySelectorAll
+
+   -->
+
+<!-- event delegation -->
+
+
+   <h3>Click on any item:</h3>
+   <!-- parrent -->
+  <ul id="myList"> 
+    <li>Item 1 <button class="remove-btn">Remove</button></li>
+    <li>Item 2 <button class="remove-btn">Remove</button></li>
+    <li>Item 3 <button class="remove-btn">Remove</button></li>
+  </ul>
+
+<button onclick="addItem()">Add Item</button>
+
+<br>
+
+
+<br>
+<input type="number" id="numberInput">
+
+<button onclick="printTable()">print table</button>
+
+<div id="output"></div>
+
+
+    <script src="dom.js"></script>
+
+    <script src="index.js"></script>
+
+    <!-- <script type="module" src="module1.js"></script>
+    <script type="module" src="module2.js"></script> -->
+</body>
+</html>
