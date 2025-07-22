@@ -165,3 +165,40 @@ To https://github.com/Deepak9852/ZoopTraningBatch1.git
 61272ee..32f7240 main -> main
 
 D:\Tutorial>
+
+D:\Tutorial>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+D:\Tutorial>git branch tutorial
+
+D:\Tutorial>git branch
+
+- main
+  tutorial
+
+D:\Tutorial>git checkout
+Your branch is up to date with 'origin/main'.
+
+D:\Tutorial>git switch tutorial
+Switched to branch 'tutorial'
+
+D:\Tutorial>git checkout
+
+D:\Tutorial>git branch
+main
+
+- tutorial
+
+D:\Tutorial>git branch -b test
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+or: git branch [<options>] [-l] [<pattern>...]
+or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+or: git branch [<options>] [-r | -a] [--points-at]
+or: git branch [<options>] [-r | -a] [--format]
