@@ -1764,3 +1764,4 @@ const streetNameOptional = person4.profile?.address?.street;
 console.log(streetNameOptional);
 
 // there is new something to learn about the git and github
+// something changed in dom for commit to git

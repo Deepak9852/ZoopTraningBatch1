@@ -100,3 +100,5 @@ function printTable() {
 
 // to do list
 //  scientific calculator
+
+// something changed in dom for commit to git
