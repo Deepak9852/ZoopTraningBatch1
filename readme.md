@@ -166,6 +166,25 @@ To https://github.com/Deepak9852/ZoopTraningBatch1.git
 
 D:\Tutorial>
 
+<<<<<<< HEAD
+Git Merge
+
+Git Rebase
+
+Git Merge merges two branches to create a "feature" branch. Git Rebase rebases the feature branch to add the feature branch to the main branch.
+Git Merge is comparatively easy. Git Rebase is comparatively harder.
+Git Merge safeguards history. Git Rabse doesn't safeguard history.
+Git Merge is more suitable for projects with the less active main branch. Git Rebase is suitable for projects with frequently active main branches.
+Git Merge forms a chain-like structure. Git Rebase forms a linear structure.
+Git Merge is preferable for large no. of people working on a project. Git Rebase is preferable for small groups of people.
+Single line command is:
+
+git merge feature main
+
+Single line command is:
+
+git rebase main
+=======
 D:\Tutorial>git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -202,3 +221,4 @@ or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
 or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
 or: git branch [<options>] [-r | -a] [--points-at]
 or: git branch [<options>] [-r | -a] [--format]
+>>>>>>> 8bb5f3352ca417a683d5e3320c9a8efde94b6077

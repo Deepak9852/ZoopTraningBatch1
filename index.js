@@ -1766,4 +1766,4 @@ console.log(streetNameOptional);
 // there is new something to learn about the git and github
 // something changed in dom for commit to git
 
-// When working with Git, two common strategies for integrating changes from different branches are merging and rebasing. Both techniques serve the purpose of combining code from multiple branches, but they do so in different ways. This article will help you understand the differences between merging and rebasing, and guide you on when to use each strategy.
+ main
