@@ -234,6 +234,12 @@ let arr3 = [["Rohit", ["Swapnil", "Avinash", "Sanket", "Tushar"]]];
 
 let arrr = ["Manish", "Monika", "Ritesh", "Ankita", "Anshu", "Anamika"];
 
+
+const learning = "git learning"
+// const learning1 = "git learning"
+const learning2 = "git learning"
+const learning3 = "git learning"
+
 // document.write(arrr + "<br>");
 // document.write(arrr.length + "<br>");
 // document.write(arrr.toString() + "<br>");
